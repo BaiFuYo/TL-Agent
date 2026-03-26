@@ -1,12 +1,12 @@
-# --- 七牛云大模型 API Key (从【大模型推理】控制台获取) ---
-QINIU_API_KEY = "sk-ef3322a3409696421658a132ac62f81e951d419da492e31f90eecf25ae9585f9"
+# ---  API Key  ---
+API_KEY = "Your_Key"
 # --- 密钥替换结束 ---
 
-# 七牛云 OpenAI 兼容接口的完整地址（注意包含 /v1/chat/completions）
+# 七牛云 OpenAI 兼容接口的完整地址(换成你的API供应商的URL)
 QINIU_AI_API_URL = "https://api.qnaigc.com/v1/chat/completions"
 
 # 高德地图 API 配置
-GAODE_API_KEY = "86f49efc3186b31a5f008f738b437c19"
+GAODE_API_KEY = "Your_Key"
 GAODE_GEO_URL = "https://restapi.amap.com/v3/geocode/geo"
 GAODE_WEATHER_URL = "https://restapi.amap.com/v3/weather/weatherInfo"
 
